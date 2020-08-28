@@ -1,0 +1,39 @@
+<!DOKTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>JS</title>
+</head>
+
+<body>
+    <script>
+        var numbers = prompt("Введите сколько ягод собрали и сьели Маша и Миша (3 значения)");
+        var namber3 = numbers.split(" ");
+        var a = Number.parseInt(namber3[0]);
+        var b = Number.parseInt(namber3[1]);
+        var c = Number.parseInt(namber3[2]);
+        var limit=1000;
+        if(a<limit||b<limit||c<limit){
+            alert("Введенное число должно быть меньше 1000");
+            throw"gg";
+        }
+        var sum= a + b;
+        var one=sum-c;
+      
+        if (sum < c) {
+            alert("Impossible");
+        }
+      
+       
+        else{
+       
+            alert(one);
+        }
+        v
+      
+    </script>
+
+</body>
+
+</html>

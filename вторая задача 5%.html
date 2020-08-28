@@ -1,0 +1,42 @@
+<!DOKTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>JS</title>
+</head>
+
+<body>
+    <script>
+        var numbers =[
+            prompt("Введите числа a и b, чтобы получить результаты 1 матча"),
+            prompt("Введите числа a и b, чтобы получить результаты 2 матча "),
+            prompt("Введите числа a и b, чтобы получить результаты 3 матча "),
+            prompt("Введите числа a и b, чтобы получитьрезультаты 4 матча ")
+        ];
+        
+        var namber3 = [numbers[0].split(" "), numbers[1].split(" "), numbers[2].split(" "),numbers[3].split(" ")];
+        var a = namber3[0][0];
+        var b = namber3[1][0];
+        var c = namber3[2][0];
+        var g = namber3[3][0];
+        var aa = namber3[0][1];
+        var bb = namber3[1][1];
+        var cc = namber3[2][1];
+        var gg = namber3[3][1];
+        var one=a+b+c;
+        var two=aa+bb+cc;
+        if (one > two) {
+            alert("1");
+        }
+        else if (one < two) {
+            alert("2");
+        }
+        else{
+            alert("DRAW");
+        }
+    </script>
+
+</body>
+
+</html>

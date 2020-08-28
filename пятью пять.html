@@ -1,0 +1,41 @@
+<!DOKTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>JS</title>
+</head>
+
+<body>
+    <script>
+        var numbers =prompt("Введите число оканчивающеся на 5");
+        var c=numbers.split("");
+        var numC = c.join("");
+        var b=c[c.length-1];
+        var t=0;
+        if(c.length==1&c=="5"&numC>0){
+        alert("25");
+        }
+        else if(c.length>1&&b=="5"&numC>0)
+        {
+            var j=c.pop();
+            for(i=0;  i < c.length; i++) 
+            t+=c[i];
+            {
+               
+                 var a = Number.parseInt(c);
+                 
+                 var sum= a*(a+1);
+                  alert(sum+"25");
+            }
+        
+
+        }
+        else{
+            alert("Дима тупой");
+        }
+    </script>
+ 
+</body>
+
+</html>
